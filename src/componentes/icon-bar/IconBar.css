@@ -1,0 +1,17 @@
+#btn-menu {
+  display: none;
+}
+
+.menu-label {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-label img {
+  height: 25px;
+  margin-left: 10px;
+  width: 20px;
+}
+
+.menu-label img:hover {
+  cursor: pointer;
+}

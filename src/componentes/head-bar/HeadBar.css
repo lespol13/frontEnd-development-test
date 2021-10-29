@@ -1,0 +1,15 @@
+.head-bar {
+  background-color: #eba904;
+  height: 35px;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.head-bar label {
+  color: white;
+  font-family: "Museo-Sans";
+  font-size: 13px;
+  font-weight: bold;
+  margin: auto;
+}

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Museo-Sans";
+  src: url("../../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf")
+    format("truetype");
+}
+
+.index-container {
+  width: 100%;
+}

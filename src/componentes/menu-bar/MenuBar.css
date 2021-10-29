@@ -1,0 +1,16 @@
+li {
+  text-align: center;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+li span {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  font-family: "Museo-Sans";
+  font-size: 14px;
+  font-weight: bold;
+}
