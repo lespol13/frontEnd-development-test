@@ -44,3 +44,15 @@
   bottom: 0;
   position: relative;
 }
+
+.slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-dots li button:hover {
+  background-color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #eba904;
+}
