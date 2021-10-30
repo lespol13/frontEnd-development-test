@@ -1,0 +1,34 @@
+.questions-component {
+  color: black;
+  font-family: "Museo-Sans";
+  width: 450px;
+}
+
+.title-tab {
+  background-color: #fff;
+  border-bottom: 2px solid #eae8e8;
+  display: grid;
+  font-size: 25px;
+  font-weight: bold;
+  grid-template-columns: 90% 10%;
+  padding: 16px 8px;
+}
+
+.title-tab:hover {
+  cursor: pointer;
+}
+
+.title-tab i {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.content-tab {
+  border-bottom: 2px solid #eae8e8;
+  font-size: 12px;
+  padding: 32px 8px;
+}
+
+.d-none {
+  display: none;
+}

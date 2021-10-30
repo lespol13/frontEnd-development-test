@@ -1,0 +1,6 @@
+.footer-component {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin: 50px auto;
+  width: 90%;
+}
