@@ -9,14 +9,14 @@ const QuestionsComponent = () => {
   }, []);
 
   return (
-    <div class="questions-component">
+    <div className="questions-component">
       {questionsLabels.map(({ id, title, text }) => (
         <div key={id}>
-          <div class="title-tab">
+          <div className="title-tab">
             {title}
-            <i class="fa fa-1x"></i>
+            <i className="fa fa-1x"></i>
           </div>
-          <div class="content-tab">{text}</div>
+          <div className="content-tab">{text}</div>
         </div>
       ))}
     </div>

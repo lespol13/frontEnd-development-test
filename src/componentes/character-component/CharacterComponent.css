@@ -1,0 +1,37 @@
+.character-component {
+  width: 100%;
+  font-family: "Museo-Sans";
+}
+
+.character-component h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.character-info {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  height: 300px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.character-info img {
+  height: 100%;
+}
+
+.character-text {
+  padding: 40px 0 0 10px;
+  width: 90%;
+}
+
+.character-text p {
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.character-text label{
+    color: brown;
+}
