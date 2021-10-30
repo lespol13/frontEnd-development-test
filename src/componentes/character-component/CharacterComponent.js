@@ -17,7 +17,7 @@ const CharacterComponent = ({ character }) => {
             {characterLabels.type}: {character.gender}
           </p>
           <p>{characterLabels.episodes}:</p>
-          {character.episode.slice(0, 6).map((episode, i) => (
+          {character.episode.slice(0, 5).map((episode, i) => (
             <pre key={i}>{episode}</pre>
           ))}
         </div>
