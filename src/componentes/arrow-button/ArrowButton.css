@@ -1,0 +1,13 @@
+#btn-arrow {
+  display: none;
+}
+
+.arrow-label img {
+  height: 30px;
+  margin-left: 20px;
+  width: 30px;
+}
+
+.arrow-label img:hover {
+  cursor: pointer;
+}

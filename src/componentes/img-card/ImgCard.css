@@ -1,0 +1,36 @@
+.img-card {
+  align-self: center;
+  flex-shrink: 0;
+  margin: 0 20px;
+  width: 300px;
+}
+
+.img-card h5,
+p,
+label {
+  color: #666666;
+  font-family: "Museo-Sans";
+}
+
+h5 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.buttonImg-container {
+  text-align: center;
+  margin: 35px auto;
+}
+
+.buttonImg-container input {
+  display: none;
+}
+
+.buttonImg-container label {
+  font-weight: bold;
+  border-bottom: 2px solid #eba904;
+}
+
+.buttonImg-container label:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.publicity-component {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  margin: 30px auto;
+  width: 100%;
+}
+
+.img-container {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.img-container #publicity-img {
+  width: 100%;
+}

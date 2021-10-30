@@ -16,7 +16,7 @@ const NavBar = () => {
       <nav className="menu-bar">
         <ul>
           {menuBarLabels.map(({ id, label }) => (
-            <MenuBar id={id} label={label} />
+            <MenuBar key={id} id={id} label={label} />
           ))}
         </ul>
       </nav>

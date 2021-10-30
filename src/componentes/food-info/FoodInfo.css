@@ -1,0 +1,10 @@
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: auto;
+  width: 90%;
+}
+
+.food-img #food-img {
+  height: 600px;
+}
